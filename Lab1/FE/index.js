@@ -83,7 +83,6 @@ function deleteEmployee (event){
     return response.json();
   })
   .then(data => {
-    console.log(1);
     fetchEmployees();
   })
   .catch(error=> console.error(error))
